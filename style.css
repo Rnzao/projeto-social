@@ -39,3 +39,23 @@ main {
     height: 470px;
      
 }
+
+section.redes{
+   text-align: right;
+}
+
+.redes img  {
+width: 50px;
+margin: 10px;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.405);
+box-sizing: border-box ;
+}
+
+a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.604);
+    transform: translate(-5px, -6px);
+    transition: transform 0.5s, border 3s; 
+}
+
+
